@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+.background-image {
+  background-image: url(/images/e73fbb9ba2970e121b32d21e2364e545--white-aesthetic-keyboard.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+body {
+  min-width: 290px;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, .4);
+  background: linear-gradient(blue, lightblue
+  );
+  opacity: 60%
+}
+
+header { 
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: thin;
+}
+
+#navbar header {
+  color: aliceblue;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  -webkit-text-stroke: 1px black;
+  font-size: 3.5rem
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: white;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color:aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-top: 18px;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  color: blue;
+}
+
+.nav-link {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  margin: 15px;
+  font-size: 1.2em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+  font-size: 1.2em;
+  color: rgb(52, 52, 134);
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: .65rem;
+    margin-left: -170px;
+  }
+  #navbar header {
+    font-size: 1.5rem;
+    }
+  #navbar a {
+    font-size: 1rem;
+  }
+  #navbar {
+    min-width: 0px;
+    width: 150px;
+  }
+}
