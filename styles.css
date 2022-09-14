@@ -136,6 +136,7 @@ code {
   #navbar {
     min-width: 0px;
     width: 150px;
+    margin: 0;
     text-align: center;
   }
 }
