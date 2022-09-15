@@ -4,7 +4,7 @@
 }
 
 html,
-.background-image {
+.background {
   background-image: url(./images/e73fbb9ba2970e121b32d21e2364e545--white-aesthetic-keyboard.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -139,4 +139,10 @@ code {
     margin-left: 0px;
     text-align: center;
   }
+
+  .background  {
+    background-image: url(./images/e73fbb9ba2970e121b32d21e2364e545--white-aesthetic-keyboard.jpg) no-repeat center center fixed;
+  }
+
+
 }
