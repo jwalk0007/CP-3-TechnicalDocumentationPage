@@ -24,6 +24,7 @@ body {
   border-color: rgba(0, 22, 22, .4);
   background: linear-gradient(blue, lightblue);
   opacity: 80%;
+  overflow-y: scroll;
 }
 
 .nav-header {
@@ -107,7 +108,7 @@ code {
     font-size: .75em;
   }
   #navbar {
-    position: absolute;
+    position: fixed;
     min-height: 100vh;
   }
   #navbar header {
@@ -127,7 +128,7 @@ code {
     font-size: .45em;
   }
   #navbar {
-    position: absolute;
+    position: fixed;
     height: 100vh;
   }
   #navbar header {
@@ -147,7 +148,7 @@ code {
     font-size: .35em;
   }
   #navbar {
-    position: absolute;
+    position: fixed;
     height: 100vh;
   }
 }
