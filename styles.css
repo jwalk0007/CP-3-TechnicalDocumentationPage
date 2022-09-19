@@ -129,7 +129,7 @@ code {
   }
   #navbar {
     position: fixed;
-    height: 100%;
+    min-height: 100%;
   }
   #navbar header {
     font-size: 2em;
@@ -149,6 +149,6 @@ code {
   }
   #navbar {
     position: fixed;
-    height: 100%;
+    min-height: 100%;
   }
 }
