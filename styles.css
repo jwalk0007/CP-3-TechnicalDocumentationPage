@@ -83,6 +83,7 @@ header {
   text-align: left;
   text-decoration: underline;
   margin: 0;
+  scroll-margin-top: 2em;
 }
 
 section article {
