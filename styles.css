@@ -74,16 +74,18 @@ z-index: -1;
   text-align: left;
 }
 
+.main-section {
+  scroll-margin-top: 3em;
+}
+
 header { 
   color: black;
   font-weight: bold;
-  margin: 10em;
   font-size: 2em;
   font-weight: thin;
+  margin: 0;
   text-align: left;
   text-decoration: underline;
-  margin: 0;
-  scroll-margin-top: 16px;
 }
 
 section article {
